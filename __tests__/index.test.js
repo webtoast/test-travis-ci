@@ -7,3 +7,7 @@ test('multiplies 2', () => {
 test('multiplies 10', () => {
     expect(multiply(10)).toBe(100);
 })
+
+test('multiplies 5', () => {
+    expect(multiply(5)).toBe(25);
+})
