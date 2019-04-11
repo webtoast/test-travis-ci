@@ -3,7 +3,8 @@
   "jest": {
     "roots": [
       "__tests__"
-    ]
+    ],
+    "testEnvironment": "node"
   },
   "version": "0.0.0",
   "description": "Multiply a number by itself",
