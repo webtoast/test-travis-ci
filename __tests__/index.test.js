@@ -1,4 +1,4 @@
-const multiply = require('./index');
+const multiply = require('../index');
 
 test('multiplies 2', () => {
     expect(multiply(2)).toBe(4);
