@@ -1,7 +1,7 @@
 {
   "name": "test-travis-ci",
   "jest": {
-    "testEnvironment": "node",
+    "testEnvironment": "node"
   },
   "version": "0.0.0",
   "description": "Multiply a number by itself",
