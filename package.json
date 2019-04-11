@@ -1,9 +1,6 @@
 {
   "name": "test-travis-ci",
   "jest": {
-    "roots": [
-      "__tests__"
-    ],
     "testEnvironment": "node"
   },
   "version": "0.0.0",
