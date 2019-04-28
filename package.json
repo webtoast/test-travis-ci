@@ -4,7 +4,8 @@
   "description": "Multiply a number by itself",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "./node_modules/stylelint/bin/stylelint.js index.css"
   },
   "repository": {
     "type": "git",
