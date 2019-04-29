@@ -4,7 +4,9 @@
   "description": "Multiply a number by itself",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "./node_modules/stylelint/bin/stylelint.js index.css",
+    "test-ci": "npm test && npm run lint"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/webtoast/test-travis-ci#readme",
   "devDependencies": {
-    "jest": "24.7.1"
+    "jest": "24.7.1",
+    "stylelint": "10.0.1"
   },
   "dependencies": {}
 }
